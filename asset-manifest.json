@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/cv-project/static/css/main.282d250e.css",
+    "main.js": "/cv-project/static/js/main.0cba36c1.js",
+    "static/media/Montserrat-BoldItalic.woff": "/cv-project/static/media/Montserrat-BoldItalic.1be59373702bc00dd9d5.woff",
+    "static/media/Montserrat-ExtraBoldItalic.woff": "/cv-project/static/media/Montserrat-ExtraBoldItalic.64bdbbf8465425d4bf81.woff",
+    "static/media/Montserrat-MediumItalic.woff": "/cv-project/static/media/Montserrat-MediumItalic.e5b5315aeec8c6bc62c9.woff",
+    "static/media/Montserrat-SemiBoldItalic.woff": "/cv-project/static/media/Montserrat-SemiBoldItalic.06b9e3d89218b9dc5069.woff",
+    "static/media/Montserrat-Italic.woff": "/cv-project/static/media/Montserrat-Italic.83bfa37caed10df34bc2.woff",
+    "static/media/Montserrat-LightItalic.woff": "/cv-project/static/media/Montserrat-LightItalic.80708ae2e8dfa6899a5f.woff",
+    "static/media/Montserrat-BlackItalic.woff": "/cv-project/static/media/Montserrat-BlackItalic.98177d163f74efb86932.woff",
+    "static/media/Montserrat-ExtraLightItalic.woff": "/cv-project/static/media/Montserrat-ExtraLightItalic.3cd505e52cdc5357abd8.woff",
+    "static/media/Montserrat-Bold.woff": "/cv-project/static/media/Montserrat-Bold.12ba843c75312dd308b0.woff",
+    "static/media/Montserrat-Regular.woff": "/cv-project/static/media/Montserrat-Regular.2ca169c90e53d1d0480b.woff",
+    "static/media/Montserrat-Medium.woff": "/cv-project/static/media/Montserrat-Medium.ff93faa1ec704c321dea.woff",
+    "static/media/Montserrat-ExtraBold.woff": "/cv-project/static/media/Montserrat-ExtraBold.654b3d7eb08497b3a6ac.woff",
+    "static/media/Montserrat-SemiBold.woff": "/cv-project/static/media/Montserrat-SemiBold.cdffefafe4a4c52c5dea.woff",
+    "static/media/Montserrat-Light.woff": "/cv-project/static/media/Montserrat-Light.df75a5aea067f7b1d014.woff",
+    "static/media/Montserrat-ExtraLight.woff": "/cv-project/static/media/Montserrat-ExtraLight.cdbd86597a115565528e.woff",
+    "static/media/Montserrat-Black.woff": "/cv-project/static/media/Montserrat-Black.c3c6001eee0c75a7dcc2.woff",
+    "static/media/Montserrat-ThinItalic.woff": "/cv-project/static/media/Montserrat-ThinItalic.07073838959a354d99c1.woff",
+    "static/media/Montserrat-Thin.woff": "/cv-project/static/media/Montserrat-Thin.2fb0d38ac7971270e302.woff",
+    "index.html": "/cv-project/index.html",
+    "main.282d250e.css.map": "/cv-project/static/css/main.282d250e.css.map",
+    "main.0cba36c1.js.map": "/cv-project/static/js/main.0cba36c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.282d250e.css",
+    "static/js/main.0cba36c1.js"
+  ]
+}
