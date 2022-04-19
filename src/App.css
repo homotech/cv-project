@@ -23,7 +23,46 @@ black #000000
 */
 .App {
   margin: 0px 100px 0px 100px;
-  /* Overflows */
+  /* Practicing DRY */
+}
+
+.App .circleone {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  position: absolute;
+  opacity: 0.2;
+  background-color: #0352a0;
+  left: 0;
+  top: 300px;
+}
+
+.App .lists ul {
+  margin: 0 0 0 60px;
+}
+
+.App .lists ul li {
+  line-height: 1.8;
+}
+
+.App .imagecenter {
+  display: block;
+  margin: auto;
+}
+
+.App .techs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 20% 20% 20% 20%;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.App .techs div img {
+  width: 50%;
+}
+
+.App .eexperience-h {
+  margin-bottom: -20px;
 }
 
 .App .grid {
@@ -31,6 +70,71 @@ black #000000
   display: grid;
   -ms-grid-columns: 10% 45% 45%;
       grid-template-columns: 10% 45% 45%;
+}
+
+.App .new-section {
+  margin-top: 30px;
+}
+
+.App .experience .companyname {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.App .experience .position {
+  color: #7b7b7b;
+}
+
+.App .experience .spotlights p {
+  margin: 10px;
+}
+
+.App .e-experience {
+  margin: 20px 0 0 0;
+}
+
+.App .e-experience .sch-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.App .e-experience .cert,
+.App .e-experience .year-grad {
+  color: #7b7b7b;
+}
+
+.App .e-experience .year-grad {
+  line-height: 2;
+}
+
+.App .section-header {
+  font-weight: bold;
+  font-size: 26px;
+  margin: 0 0 20px 0;
+}
+
+.App .header {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 90%;
+      grid-template-columns: 10% 90%;
+}
+
+.App .header img {
+  width: 50%;
+  text-align: center;
+}
+
+.App .section-paragraph {
+  font-size: 18px;
+  color: #5d5d5d;
+  padding: 0 20px;
+  border-left: 3px solid #005092;
+}
+
+.App .header-icon {
+  width: 24px;
 }
 
 .App .first-row {
@@ -65,17 +169,18 @@ black #000000
   padding: 200px 20px 0px 50px;
 }
 
-.App .first-row .third-column .header {
+.App .first-row .third-column .nameandabout {
   margin: 30px 0 0 0;
 }
 
-.App .first-row .third-column .header .cv-name {
-  margin: 0px;
-  font-weight: bold;
-  font-size: 40px;
+.App .first-row .third-column .nameandabout .cv-name {
+  font-family: "montserrat-semibold";
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
 }
 
-.App .first-row .third-column .header .cv-about {
+.App .first-row .third-column .nameandabout .cv-about {
   border-left: 3px solid #005092;
   padding: 0 20px;
   color: #5d5d5d;
@@ -83,11 +188,6 @@ black #000000
 
 .App .first-row .third-column .contact-information {
   margin: 30px 0 0 0;
-}
-
-.App .first-row .third-column .contact-information .ci-header {
-  font-weight: bold;
-  font-size: 40px;
 }
 
 .App .first-row .third-column .contact-information .tel-numbers {
@@ -103,7 +203,13 @@ black #000000
   border-radius: 15px;
   color: #fff;
   padding: 10px;
-  margin: 20px 0 0 0;
+}
+
+.App .first-row .third-column .contact-information .tel-numbers div:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .App .first-row .third-column .contact-information .tel-numbers div a {
@@ -120,7 +226,12 @@ black #000000
 }
 
 .App .first-row .third-column .contact-information .tel-numbers .secondary-number {
-  background-color: #5d5d5d;
+  border: 2px solid #aeaeae;
+}
+
+.App .first-row .third-column .contact-information .tel-numbers .secondary-number p,
+.App .first-row .third-column .contact-information .tel-numbers .secondary-number a {
+  color: #9a9a9a;
 }
 
 .App .first-row .third-column .contact-information .social-media-links {
@@ -144,7 +255,28 @@ black #000000
   margin: 20px 0 0 0;
 }
 
+.App .first-row .third-column .contact-information .social-media-links a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .App .first-row .third-column .contact-information .social-media-links a img {
   width: 20%;
+}
+
+.App .second-row {
+  margin: 30px 0 0 0;
+  background-color: #dfdfdf;
+  padding: 30px 0;
+}
+
+.App .second-row .second-column {
+  border-right: 2px solid #797979;
+}
+
+.App .second-row .third-column {
+  padding: 0 20px 0 50px;
 }
 /*# sourceMappingURL=App.css.map */
