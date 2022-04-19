@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-project/static/css/main.98664397.css",
-    "main.js": "/cv-project/static/js/main.d60df7ef.js",
+    "main.css": "/cv-project/static/css/main.bb490929.css",
+    "main.js": "/cv-project/static/js/main.4b4ad0f2.js",
     "static/media/userimage.jpg": "/cv-project/static/media/userimage.5440c74cfc4a067f9d60.jpg",
     "static/media/Montserrat-BoldItalic.woff": "/cv-project/static/media/Montserrat-BoldItalic.1be59373702bc00dd9d5.woff",
     "static/media/Montserrat-ExtraBoldItalic.woff": "/cv-project/static/media/Montserrat-ExtraBoldItalic.64bdbbf8465425d4bf81.woff",
@@ -21,12 +21,23 @@
     "static/media/Montserrat-Black.woff": "/cv-project/static/media/Montserrat-Black.c3c6001eee0c75a7dcc2.woff",
     "static/media/Montserrat-ThinItalic.woff": "/cv-project/static/media/Montserrat-ThinItalic.07073838959a354d99c1.woff",
     "static/media/Montserrat-Thin.woff": "/cv-project/static/media/Montserrat-Thin.2fb0d38ac7971270e302.woff",
+    "static/media/cdr.png": "/cv-project/static/media/cdr.4ba5e8785caf9632b653.png",
+    "static/media/atom.png": "/cv-project/static/media/atom.ebb56ca47955bdc9fa25.png",
+    "static/media/sass.png": "/cv-project/static/media/sass.91714f748188b46f4e33.png",
+    "static/media/book-stack.png": "/cv-project/static/media/book-stack.b4933017f6b07642731f.png",
+    "static/media/target.png": "/cv-project/static/media/target.d38ac20f1fafc89c44c6.png",
+    "static/media/page.png": "/cv-project/static/media/page.02481fff765cc256b960.png",
+    "static/media/skills.png": "/cv-project/static/media/skills.c63e54ea965cab9e7a07.png",
+    "static/media/goal.png": "/cv-project/static/media/goal.ac66cde84ebdf600e045.png",
+    "static/media/portfolio.png": "/cv-project/static/media/portfolio.5ff3388eb9a002ed675d.png",
+    "static/media/photoshop.png": "/cv-project/static/media/photoshop.047cad202c4a70579aa2.png",
+    "static/media/illustrator.png": "/cv-project/static/media/illustrator.be2c11a35d886eeda681.png",
     "index.html": "/cv-project/index.html",
-    "main.98664397.css.map": "/cv-project/static/css/main.98664397.css.map",
-    "main.d60df7ef.js.map": "/cv-project/static/js/main.d60df7ef.js.map"
+    "main.bb490929.css.map": "/cv-project/static/css/main.bb490929.css.map",
+    "main.4b4ad0f2.js.map": "/cv-project/static/js/main.4b4ad0f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.98664397.css",
-    "static/js/main.d60df7ef.js"
+    "static/css/main.bb490929.css",
+    "static/js/main.4b4ad0f2.js"
   ]
 }
