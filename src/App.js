@@ -25,7 +25,6 @@ function App() {
         <div className="third-column">
           {/* //Contact information */}
           <NameAndAbout />
-
           <ContactInformation />
         </div>
       </div>

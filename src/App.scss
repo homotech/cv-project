@@ -11,12 +11,7 @@ html,
 body {
   width: 100%;
 }
-/*
-Colors
-light Gray #5d5d5d
 
-black #000000
-*/
 .App {
   //   position: relative;
   margin: 0px 100px 0px 100px;
@@ -26,7 +21,7 @@ black #000000
     border-radius: 200px;
     position: absolute;
     opacity: 0.2;
-    background-color: #0352a0;
+    background-color: rgb(0, 80, 146);
     left: 0;
     top: 300px;
   }
@@ -186,17 +181,17 @@ black #000000
             }
           }
           .secondary-number {
-            border: 2px solid #aeaeae;
+            border: 2px solid #a9a9a9;
             p,
             a {
-              color: #9a9a9a;
+              color: #a9a9a9;
             }
           }
         }
         .social-media-links {
           border-left: 3px solid rgb(0, 80, 146);
           padding: 0 20px;
-          color: #5d5d5d;
+          color: #a9a9a9;
           margin: 40px 0 0 0;
           display: grid;
           grid-template-columns: auto auto auto;
@@ -223,10 +218,23 @@ black #000000
     background-color: #dfdfdf;
     padding: 30px 0;
     .second-column {
-      border-right: 2px solid #797979;
+      border-right: 2px solid #a9a9a9;
     }
     .third-column {
       padding: 0 20px 0 50px;
     }
   }
 }
+
+/*
+Colors
+
+grays
+#dfdfdf
+#a9a9a9
+#5d5d5d
+#7b7b7b
+
+blue
+rgb(0, 80, 146)
+*/
